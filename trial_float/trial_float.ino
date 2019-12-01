@@ -37,7 +37,7 @@ lcd.setCursor(0,0);
 lcd.print("VOL. :0.00");
 lcd.setCursor(0,1);
 lcd.print("TOTAL:");
-lcd.print( TOTAL);
+lcd.print("TOTAL");
 lcd.print(" L");
 }
 else
@@ -47,11 +47,11 @@ Serial.println(FREQUENCY);
 lcd.clear();
 lcd.setCursor(0,0);
 lcd.print("VOL.: ");
-lcd.print(WATER);
+lcd.print("WATER");
 lcd.print(" L/M");
 lcd.setCursor(0,1);
 lcd.print("TOTAL:");
-lcd.print( TOTAL);
+lcd.print("TOTAL");
 lcd.print(" L");
 }
 }
